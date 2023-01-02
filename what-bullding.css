@@ -1,0 +1,60 @@
+.what-building__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Poiret One'
+}
+.what_building_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+    padding: 0px 140px;
+
+}
+.what-building__item{
+    flex-basis: 165px;
+    padding-top: 4px;
+    background-color: #FF0000;
+    border-radius: 20px;
+    box-shadow: 0px 2px 18px; color: rgba(41, 41, 0.74);
+
+}
+.what-building__text{
+    font-weight: 600;
+    line-height: 17px;
+    color: aliceblue;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.what-building__item::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 190px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+.what-building__item_home::after{
+    background-image: url(img/raboty/vizitki.png);
+
+}
+.what-building__item_cottage::after{
+    background-image: url(img/raboty/free-icon-visiting-card-5804664.png);
+}
+.what-building__item_townhouse::after{
+    background-image: url(img/raboty/free-icon-visiting-card-5804664.png);
+}
+.what-building__item_monsion::after{
+    background-image: url(img/raboty/free-icon-visiting-card-5804664.png);
+}
+.what-building__item_village::after{
+    background-image: url(img/raboty/free-icon-visiting-card-5804664.png);
+}
+.what-building__item_sauna::after{
+    background-image: url(img/raboty/free-icon-visiting-card-5804664.png);
+}
